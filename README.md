@@ -18,9 +18,14 @@ pip install -r requirements.txt
 ### Step 3: Add openai API key and base url
 Add your openai API key and base url by updating `./GLIMPSE/config.py` file
 ```python
-LLM_BASE_MAPPING={
-    "gpt35": ["gpt-3.5-turbo-0125", "API_BASE_URL", "API_KEY"],
+LLM_BASE_MAPPING = {
+    "DeepSeek-V3.2": [
+        "deepseek-chat",
+        "https://api.deepseek.com",
+        ”API_KEY“,
+    ]
 }
+
 ```
 
 ### Step 4: Run with example Apache dataset
