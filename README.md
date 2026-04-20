@@ -1,4 +1,4 @@
-# GLIMPSE: LLM-based Unsupervised Log Parsing
+# GLIMPSE: Global LLM-Driven Template Merging for Unsupervised Log Parsing
 
 This is the official repo for our COMPSAC 2026 paper: _**GLIMPSE: Global LLM-Driven Template Merging for Unsupervised Log Parsing**_
 
