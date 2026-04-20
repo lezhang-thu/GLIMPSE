@@ -64,3 +64,8 @@ After you download the Loghub-2.0 datasets, you can use the following scripts to
 ```commandline
 bash run-parallel.sh all
 ```
+# 4. Evaluation Details
+For readers seeking the detailed evaluation metrics referenced in our paper, please find the supplementary materials in the [`paper-materials`](./paper-materials) directory:
+
+* **Cost Analysis & Token Consumption**: Detailed pricing and API token usage statistics across different parsers are available in [**Table VI**](./paper-materials/TABLE%20VI-cost%20analysis%20and%20toke...). *(Note: Please ensure this link matches your exact file name)*
+* **Runtime Efficiency**: The comprehensive runtime comparison on the Loghub-2.0 dataset can be found in [**Figure 3**](./paper-materials/Fig.3-Runtime%20Comparison.jpg).
