@@ -3,9 +3,7 @@
 This is the official repo for our COMPSAC 2026 paper: _**GLIMPSE: Global LLM-Driven Template Merging for Unsupervised Log Parsing**_
 
 # 1. Quick Start
-### Step 1: Clone the repo
-
-### Step 2: Environment
+### Step 1: Environment
 Run the following command to install the dependencies
 ```bash
 conda create -n glimpse python=3.8.19
@@ -15,7 +13,7 @@ cd GLIMPSE
 pip install -r requirements.txt
 ```
 
-### Step 3: Add openai API key and base url
+### Step 2: Add openai API key and base url
 Add your openai API key and base url by updating `./GLIMPSE/config.py` file
 ```python
 LLM_BASE_MAPPING = {
@@ -25,10 +23,9 @@ LLM_BASE_MAPPING = {
         ”API_KEY“,
     ]
 }
-
 ```
 
-### Step 4: Run with example Apache dataset
+### Step 3: Run with example Apache dataset
 ```commandline
 bash run.sh Apache
 ```
